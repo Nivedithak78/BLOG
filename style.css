@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto+Slab:wght@300;500&display=swap');
+
+* {
+    font-family: 'Roboto Slab', serif;
+}
+
+.btn {
+    font-size: 1.7rem;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 4px;
+    margin-top: 1.6rem;
+    display: inline-block;
+    border: 0.2rem solid #fff;
+    color: #131313;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #141414;
+}
+
+.why{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*navbar*/
+.mynav {
+    background-color: #131313;
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+/*post*/
+.box {
+    border: solid 1px #131313;
+    background: #eee;
+    border-radius: 0.5rem;
+    padding:10px;
+    color:#131313;
+    
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.image {
+    width: 320px;
+    height: 230px;
+    margin-left: 28%;
+}
+
+.video {
+    margin-top: 5%;
+    margin-left: 30%;
+}
+
+
+
+/*home*/
+.home {
+    background: url(banner3.jpg);
+    margin: auto;
+    padding: 10% 20%;
+}
+
+.main {
+    position: relative;
+    right: 13rem;
+}
+
+.heading {
+    color: #fff;
+    font-size:1.5rem;
+}
+
+.main-heading {
+    color: #eee6;
+    font-size:3rem;
+}
+
+.s-heading {
+    color: #eee6;
+    font-size:1.5rem;
+    padding-top: 5%;
+}
+
+.why:hover {
+    color: #141414;
+}
+
+/*about*/
+.about {
+    margin: 7% 10%;
+    background-color: rgba(214, 212, 212, 0.4);
+    padding: 5% 10%;
+    border: 1px solid #141414;
+    border-radius: 2.5px;
+}
+
